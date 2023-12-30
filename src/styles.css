@@ -1,0 +1,667 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.profile-container {
+  width: 40%;
+  margin: 50px auto;
+  /* background-color: #fff; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75")
+}
+.Acontainer{
+  background-color: #000000;
+}
+/* .usage-metrics{
+  width: 40%;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: #000000;
+} */
+.profile-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header.css */
+.nav-item {
+  color: white;
+  background-color: black;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: light;
+}
+#intro {
+  color: white;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+}
+
+#phot{
+  color: white;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75")
+}
+.huzaifa {
+  margin: right;
+}
+.line {
+  margin-top: 0px;
+  font-size: 100px;
+  font-weight: bolder;
+}
+.second {
+  margin-top: 50px;
+}
+.research {
+  margin: 0;
+  text-align: center;
+}
+.Tools {
+  margin-left: 50px;
+  text-align: left;
+}
+.Tool {
+  margin-top: 80px;
+  margin-left: 50px;
+  text-align: left;
+}
+.container {
+  background-color: #ccc;
+  margin-top: 40px;
+  width: 80%; /* You can adjust the width as needed */
+  margin-left auto; /* This centers the container horizontally */
+}
+
+.card {
+  border-radius: 25px;
+  margin-left: 50px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #81ecec;
+  margin-top: 15px;
+  height: 200px;
+  margin-left: 50px;
+  /* box-shadow: 0 2px 5px #ccc; */
+  text-align: left;
+}
+#revolution {
+  background-color: #45474b;
+  color: white;
+}
+.title-image {
+  /* width: 1200px; */
+  height: 750px;
+  width: 100%;
+  transform: rotate(0deg);
+  position: absolute;
+  left: 70%;
+  top: 130%;
+}
+@media (max-width: 900px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
+#khatam {
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* AccountDetails.css */
+
+.account-details {
+  /* background-color: #ffffff; */
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.account-details h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-column {
+  flex-grow: 1;
+}
+
+.subscription-plan p,
+.subscription-status p {
+  color: #718096;
+}
+
+.subscription-plan .text-lg,
+.subscription-status .text-lg {
+  font-weight: bold;
+}
+
+.subscription-status .text-green-500 {
+  color: #38a169;
+}
+
+/* UsageMetrics.css */
+
+.usage-metrics {
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.usage-metrics h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.metric-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.metric-title {
+  color: #718096;
+}
+
+.metric-value {
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* RecentActivityFeed.css */
+
+.recent-activity-feed {
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.feed-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.feed-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feed-item {
+  margin-bottom: 0.75rem;
+}
+
+.activity-type {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.activity-type.created {
+  background-color: #63b3ed;
+  color: #fff;
+}
+
+.activity-type.shared {
+  background-color: #68d391;
+  color: #fff;
+}
+
+.activity-type.uploaded {
+  background-color: #ffa94d;
+  color: #fff;
+}
+/* CreateNewGraphButton.css */
+
+.create-graph-button {
+  background-color: #4a90e2;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-graph-button:hover {
+  background-color: #0066cc;
+}
+/* FavoritesCollectionsLinks.css */
+
+.favorites-collections-links {
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.link-item {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color:greenyellow;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.link-item:hover {
+  background-color: #edf2f7;
+}
+
+/* SavedGraphList.css */
+
+.saved-graph-list {
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.list-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.graph-list {
+  list-style: none;
+  padding: 0;
+}
+
+.graph-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 0;
+}
+
+.graph-thumbnail {
+  width: 60px;
+  height: 60px;
+  background-color: #dcdcdc;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+
+.graph-details {
+  flex-grow: 1;
+}
+
+.graph-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.graph-date {
+  color: #718096;
+}
+
+/* CreateNewGraphPage.css */
+
+.create-new-graph-page {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.graph-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.preview-section {
+  margin-top: 1rem;
+}
+
+.graph-preview {
+  width: 100%;
+  height: 200px;
+  background-color: #dcdcdc;
+  border-radius: 0.25rem;
+}
+
+/* AccountSettings.css */
+
+.account-settings {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-top: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.link-button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  background-color: #45a049;
+}
+/* GraphDetailsPage.css */
+
+.graph-details-page {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.graph-details {
+  margin-bottom: 1rem;
+}
+
+.graph-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.graph-description {
+  color: #718096;
+  margin-bottom: 0.5rem;
+}
+
+.graph-date {
+  color: #718096;
+  margin-bottom: 1rem;
+}
+
+.view-graph-button {
+  background-color: #4a90e2;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.papers-list {
+  margin-bottom: 1rem;
+}
+
+.papers-list h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.papers-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.papers-list li {
+  margin-bottom: 0.25rem;
+}
+
+.graph-actions button {
+  margin-right: 0.5rem;
+  background-color: #e53e3e;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.graph-actions button:hover {
+  background-color: #c53030;
+}
+/* PricingPage.css */
+
+.pricing-page {
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.page-title {
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.pricing-cards {
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-card {
+  background-color: #000000;
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75");
+  flex-grow: 1;
+  /* background-color: #ffffff; */
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px white;
+  margin-right: 1rem;
+  color: white;
+}
+#print{
+  color: white;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75")
+}
+.print-container{
+  width: 60%;
+  height: 100%;
+  margin: 50px auto; 
+  /* background-color: #fff; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-image: url("https://www.genoshi.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraph-mock.5d5847ac.png&w=1080&q=75")
+}
+.plan-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4a90e2;
+  margin-bottom: 1rem;
+}
+/* Sidebar.css */
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #2d3748;
+  color: #ffffff;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.navigation {
+  flex-grow: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #4a90e2;
+}
